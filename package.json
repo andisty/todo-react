@@ -31,5 +31,8 @@
   "homepage": "https://github.com/reactjs/react-tutorial",
   "engines" : {
     "node" : "0.12.x"
+  },
+  "standard": {
+    "globals": [ "document", "window", "React", "ReactDOM", "Remarkable", "$"]
   }
 }
